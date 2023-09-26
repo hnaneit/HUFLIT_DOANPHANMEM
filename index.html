@@ -3,39 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SHOP_HOA_HUFLIT</title>
+    <title>Web Bán Hoa</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
-      <h1>HUFLIT</h1>
+      <h1>Shop Hoa HUFLIT</h1>
       <nav>
-        <!-- MENU -->
         <ul>
           <li><a href="#">Trang chủ</a></li>
           <li><a href="#">Sản phẩm</a></li>
           <li><a href="#">Giỏ hàng</a></li>
-          <li><a href="#">Đăng nhập</a></li>
-          <li><a href="#">Đăng ký</a></li>
         </ul>
       </nav>
     </header>
-    <!-- Hiển thị sản phẩm -->
-    <main>
-      <section class="product">
-        <h2>Sản phẩm 1</h2>
-        <p>Mô tả sản phẩm 1</p>
-        <p>Giá: 120.000VNĐ</p>
-        <button>Thêm vào giỏ hàng</button>
-      </section>
-      <section class="product">
-        <h2>Sản phẩm 2</h2>
-        <p>Mô tả sản phẩm 2</p>
-        <p>Giá: 120.000VNĐ</p>
-        <button>Thêm vào giỏ hàng</button>
-      </section>
-    </main>
+
+    <section class="product-list">
+      <article class="product">
+        <img src="./image/hoahong.gif" alt="Hoa đẹp 1" />
+        <h2>Hoa hồng</h2>
+        <p class="price">$10.99</p>
+        <button class="buy-button">Mua ngay</button>
+      </article>
+      <article class="product">
+        <img src="./image/hoahong.gif" alt="Hoa đẹp 2" />
+        <h2>Hoa đẹp 2</h2>
+        <p class="price">$12.99</p>
+        <button class="buy-button">Mua ngay</button>
+      </article>
+      <!-- Thêm các sản phẩm khác ở đây -->
+    </section>
+
     <footer>
-      <p>&copy; SHOP_HOA_HUFLIT</p>
+      <p>&copy; HUFLIT</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
